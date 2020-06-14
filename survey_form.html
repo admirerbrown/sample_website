@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>UC-VIL survey form</title>
+    <meta charset="utf-8">
+    </head>
+    <body>
+        <h1> <img src="/images/large-200x200.png" alt="logo">centralized virtual library for universities survey form</h1>
+   <h2><em>Thank you for taking time to participate in this survey..</em></h2>
+
+    <ul>
+    <form action="/survey_form.html" method="POST"></form>
+    <Li>Name:<br> 
+        <input type="text" name="surveyee name"></Li>
+    <br>
+    <li>Email:<br>
+         <input type="text" name="surveyee email"></li>
+    <br>
+    <li>Educational status:<br>
+         <input type="text" name="surveyee education"></li>
+         <br>
+         <li>Collage Name:<br>
+        <input type="text" name="surveyee institution"></li><br>
+        
+
+    <li>which option best describes your opinion on centralized virtual Uni-library?<br>
+        <select name="opinion">
+            <li>
+                <option>select an option</option>
+            <option>it will be costly to setup</option>
+            <option>it would be difficult to manage</option>
+            <option>it would help all public universities in the country have access to a well stocked library</option>
+            <option>the quality of books accessible to all students irrespective of school would be the same.</option>
+            <option>none of the above</option>
+        </select></li><br>
+        
+      <Li>How would you grade the quantity of books in your schools's physical library?<br>
+            <select name="school grading"> 
+                <option>select an option</option>
+                <option><strong>bad</strong></option>
+                <option><strong>faily good</strong></option>
+                <option><strong>good</strong></option>
+                <option><strong>excellent</strong></option>   
+            </select></li><br>
+         <li> How would you rate the quality of books in terms of how recent they are in your school's physical library?<br>
+                <input type="text" list="rate"  placeholder="select an option" name="grading of book quality">
+                <datalist id="rate">
+                    <option value="poor and outdated"></option>
+                    <option value="faily good but outdated"></option>
+                    <option value="excellent and recent books"></option>
+                </datalist></li><br>
+               
+                How frequent do you visit your shool's physical library?
+                <ol>
+                <li><input type="radio" name="frequent visits" value="never">never</li><br>
+                <li><input type="radio" name="frequent visits" value="less often">less often</li><br> 
+                <li><input type="radio" name="frequent visits" value="frequent">frequent</li><br>
+                <li><input type="radio" name="frequent visits" value="always">always</li><br>
+               </ol>
+                   which fomat would you prefer to read a book?
+                    <ol>
+                       <li><input type="radio" name="book format" value="hardcover">hardcover</li><br>
+                         <li> <input type="radio" name="book format" value="softcopy">softcopy</li><br>
+                       </ol><br>
+
+                        should all public university students have access to quality books irrespective of school,location and time?
+                            <ul>
+                           <li><input type="checkbox" name="choose between" value="Yes">yes</li><br>
+                            <li><input type="checkbox" name="choose between" value="NO">no</li><br>
+                           <li><input type="checkbox"  name="choose between" value="MAYBE">maybe</li><br>
+                           <li><input type="checkbox" name="choose between" value="NONE">none </li><br>    
+                     </ul>        
+                            please let us know what you think about this topic:<br>
+                                <textarea name="comment" rows="5" cols="60" maxlength="500" placeholder="No more than 4oo words"></textarea></li>
+                                
+                            <p><input type="submit" value="submit"> <input type="reset" value="start over"></p>
+                         </ul>  
+                        </body>
+ </html>
