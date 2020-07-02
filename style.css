@@ -1,0 +1,88 @@
+html{
+    margin: 0;
+    padding: 0%;
+}
+
+h1 {
+    color: forestgreen;
+    text-align: center;
+    font-family: monospace ;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: -1.0em;
+   
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -1.3em;
+    text-transform: uppercase;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+
+
+body {
+    background-color: rgba(255, 248, 220, 0.34);
+    font-family: fantasy;
+    line-height: 1.8;
+    margin: auto;
+    padding-top: 4em;
+    padding-right: 8em;
+    padding-bottom: 4em;
+    padding-left: 8em
+    
+}
+p {
+    margin-top: 0%;
+    text-align: justify;
+    text-align-last: unset;
+    width: 500px;
+    font-size: initial;
+  
+     
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: sienna;
+    text-transform: capitalize;
+    font-weight: bolder;
+    line-height: 0.88;
+    margin-bottom: 0.5em;    
+}
+.follow-path {
+    text-transform: lowercase;
+    color: maroon;
+    font-size: xx-small!important;
+}
+
+.responsive-img {
+    max-width: 100;
+    max-height: auto;
+}
+footer {
+    background-color: hsl(19, 80%, 25%);
+    font-size: x-small;
+    text-align: center;
+    margin-top: 10em;
+    columns: #000000;
+    margin-bottom: -1em;
+    font-family: fantasy;
+    
+}
+nav {
+    background-color: hsla(181, 90%, 35%, 0.129);
+    text-align: justify;
+    text-transform: capitalize;
+    list-style-position: left;
+
+}
+.Author {
+    margin-left: 2em;
+    margin-bottom: -1.0em;
+}
+
+
